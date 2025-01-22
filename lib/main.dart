@@ -198,12 +198,12 @@ class GeneratorPage extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Text('Like')
+          Text('Like'),
           Expanded(
             flex: 3,
             child: HistoryListView(),
           ),
-          SizedBox(height: 10),
+          SizedBox(height: 10), 
           BigCard(pair: pair),
           SizedBox(height: 10),
           Row(
